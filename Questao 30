@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+float raio, altura, volume;
+float pi;
+
+printf ("Insira o valor do raio da base e a altura de um cone");
+scanf ("%f %f", &raio, &altura);
+ 
+pi = 3.14;
+
+volume = (1.0 / 3.0) * pi * pow( raio, 2 ) * altura;
+
+printf ("O volume do cone é %.3f\n", volume);
+
+return 0;
+
+ }

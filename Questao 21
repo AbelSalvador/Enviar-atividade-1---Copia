@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+float km, m;
+
+printf ("Insira o valor em quilômetros ");
+scanf ("%f", &km);
+
+m = km * 0.621371;
+
+printf ("O valor de %f quilômetros, em milhas, é %.3f\n", km, m);
+
+return 0;
+
+}

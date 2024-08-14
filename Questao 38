@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+float preco, Pfinal;
+int desconto;
+
+printf ("Insira o preço inicial de um produto e seu desconto, em percantem (%%)");
+scanf ("%f %d", &preco, &desconto);
+
+Pfinal = preco * ( 1 - desconto / 100.0 );
+
+printf ("O valor do preço final, após o desconto, é de %.3f\n", Pfinal);
+
+return 0;
+
+}

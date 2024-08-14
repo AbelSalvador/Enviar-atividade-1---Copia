@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main () {
+int lados;
+float medida, perimetro;
+
+printf ("Insira a quantia de lados e a medida de um deles, para determinar o perímetro de um polígono ");
+scanf ("%d %f", &lados, &medida);
+
+perimetro = lados * medida;
+
+printf ("O perímetro deste polígono, de %d lados e medida %f, é igual a %.3f\n", lados, medida, perimetro);
+
+return 0;
+
+}

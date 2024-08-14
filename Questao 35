@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
+int main () {
+float futuro, taxa, periodos, presente;
+
+printf ("Insira os valores do investimento presente, da taxa de juros e o número períodos ");
+scanf ("%f %f %f", &presente, &taxa, &periodos);
+
+futuro = presente / pow( 1 + taxa / 100, periodos);
+
+printf ("O valor do investimento futuro é de %.3f\n", futuro);
+
+return 0;
+
+}

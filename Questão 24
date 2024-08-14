@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() { 
+float massa, aceleração, força;
+
+printf ("Insira o valor da massa e da aceleração ");
+scanf ("%f %f", &massa, &aceleração);
+
+força = massa * aceleração;
+
+printf ("O valor da energia força resultante é %.3f", força);
+
+return 0;
+
+}

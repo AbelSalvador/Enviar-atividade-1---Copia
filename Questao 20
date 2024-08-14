@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+float força, área, pressão;
+
+printf ("Insira a força aplicada em newtons e a área em metros quadrados ");
+scanf ("%f %f", &força, &área);
+
+pressão = força / área;
+
+printf ("A pressão aplicada pelo usuário é %.3f\n", pressão);
+
+return 0;
+
+}

@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+
+float juros, taxa, investimento;
+int tempo;
+
+printf ("insira um valor de investimento inicial");
+scanf ("%f", &investimento);
+
+printf ("Insira a taxa anual de juros em (%%) ");
+scanf ("%f", &taxa);
+
+printf ("Insira o tempo de investimento no formato de anos ");
+scanf ("%d", &tempo);
+
+juros = investimento * (taxa / 100) * tempo;
+
+printf ("A montante de juros simples obtida no final dos anos inseridos é %.3f\n", juros);
+
+return 0;

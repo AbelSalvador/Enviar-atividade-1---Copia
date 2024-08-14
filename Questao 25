@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() { 
+float força, distância, trabalho;
+
+printf ("Insira o valor da força e da distância ");
+scanf ("%f %f", &força, &distância);
+
+trabalho = força * distância;
+
+printf ("O valor do trabalho é %.3f", trabalho);
+
+return 0;
+
+}

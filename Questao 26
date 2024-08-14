@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() { 
+float trabalho, tempo, potência;
+
+printf ("Insira o valor do trabalho e do tempo ");
+scanf ("%f %f", &trabalho, &tempo);
+
+potência = trabalho / tempo;
+
+printf ("O valor da potência é %.3f", potência);
+
+return 0;
+
+}

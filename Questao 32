@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+int Pinicial, Pfinal, tempo;
+float crescimento;
+
+printf ("Insira os valores da população inicial e a população final ");
+scanf ("%d %d", &Pinicial, &Pfinal);
+
+printf ("Insira o tempo de crescimento, em anos ");
+scanf ("%d", &tempo);
+
+crescimento = (( Pfinal - Pinicial ) / Pinicial ) * 100 / tempo;
+
+printf ("A taxa de crescimento populacional é igual a %.3f\n", crescimento);
+
+return 0;
+
+}

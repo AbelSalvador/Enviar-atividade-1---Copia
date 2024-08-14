@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(){
+int b, h;
+int A;
+
+printf ("Insira a base do triângulo");
+scanf ("%d", &b);
+
+printf ("Insira a altura do triângulo");
+scanf ("%d", &h);
+
+A = (b * h)/ 2;
+
+printf ("A área do triângulo é igual a %d\n", A);
+
+return 0;
+
+}

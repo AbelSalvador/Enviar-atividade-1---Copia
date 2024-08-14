@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() { 
+float massa, volume, densidade;
+
+printf ("Insira a massa e o volume do objeto");
+scanf ("%f %f", &massa, &volume);
+
+densidade = massa / volume;
+
+printf ("O valor da densidade do objeto é igual a %.3f\n", densidade);
+
+return 0;
+
+}

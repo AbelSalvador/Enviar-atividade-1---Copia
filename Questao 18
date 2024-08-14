@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+float peso, altura, IMC;
+
+printf ("Insira o peso e altura ");
+scanf ("%f %f", &peso, &altura);
+
+IMC = peso / (altura * altura);
+
+printf ("O IMC do usuário é %.3f\n", IMC);
+
+return 0;
+
+}

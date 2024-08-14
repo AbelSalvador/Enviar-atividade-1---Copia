@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() { 
+float massa, velocidade, energia;
+
+printf ("Insira o valor da massa e da velocidade");
+scanf ("%f %f", &massa, &velocidade);
+
+energia = ( massa * pow( velocidade, 2)) / 2;
+
+printf ("O valor da energia cinética é %.3f", energia);
+
+return 0;
+
+}

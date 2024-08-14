@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+int horas;
+float minutos;
+
+printf ("Insira o número de horas ");
+scanf ("%d", &horas);
+
+minutos = horas * 60;
+
+printf ("%d horas, em minutos, equivalem a %.3f\n ", horas, minutos);
+
+return 0;
+
+}

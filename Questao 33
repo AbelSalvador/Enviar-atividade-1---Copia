@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    float Vinicial, Vresidual, depreciação;
+    float vida;
+
+    printf("Insira o valor inicial do bem ");
+    scanf("%f", &Vinicial);
+
+    printf("Insira o valor residual do bem");
+    scanf("%f", &Vresidual);
+
+    printf("Insira a vida útil do bem no formato de ano");
+    scanf("%f", &vida);
+
+    depreciação = ( Vinicial - Vresidual ) / vida;
+
+    printf("O valor de depreciação anual do bem é: %.3f\n", depreciação);
+
+    return 0;
+
+}

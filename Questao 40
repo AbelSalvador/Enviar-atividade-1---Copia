@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+float altura, raio, pi, volume;
+
+pi = 3.14;
+
+printf ("Insira os valores da altura e do raio de um cilindro");
+scanf ("%f %f", &altura, &raio);
+
+volume = pi * pow( raio, 2.0 ) * altura;
+
+printf ("O volume do cilindro é igual a %.3f\n", volume);
+
+return 0;
+
+}

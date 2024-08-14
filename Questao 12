@@ -1,0 +1,17 @@
+#include <math.h>
+#include <stdio.h>
+
+int main() {
+float cateto1, cateto2;
+float hipotenusa;
+
+printf ("Insira o valor dos 2 catetos de um triângulo retângulo ");
+scanf ("%f %f", &cateto1, &cateto2);
+
+hipotenusa = sqrt(cateto1 * cateto1 + cateto2 *cateto2);
+
+printf ("O valor da hipotenusa é igual a %.3f\n", hipotenusa);
+
+return 0;
+
+ }

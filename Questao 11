@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+float metros;
+float pés;
+
+printf ("Insira um valor em metros ");
+scanf ("%f", &metros);
+
+pés = metros * 3.28084;
+
+printf ("O valor de %.3f metros em pés é igual a %.3f", metros, pés);
+
+return 0;
+
+}

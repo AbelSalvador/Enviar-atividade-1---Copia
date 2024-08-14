@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+float nota1, nota2, nota3, peso1, peso2, peso3, media;
+
+printf ("Insira a nota e o peso do usuário 1 ");
+scanf ("%f %f", &nota1, &peso1);
+
+printf ("Insira a nota e o peso do usuário 2 ");
+scanf ("%f %f", &nota2, &peso2 );
+
+printf ("Insira a nota e o peso do usuário 3 ");
+scanf ("%f %f", &nota3, &peso3);
+
+media = ( nota1 * peso1 + nota2 * peso2 + nota3 * peso3) / (peso1 + peso2 + peso3 );
+
+printf ("A média ponderada dos usuários é %.3f\n", media);
+
+return 0;
+
+}

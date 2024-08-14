@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+float quilos;
+float libras;
+
+printf ("Insira um valor em quilos" );
+scanf ("%f", &quilos);
+
+libras = quilos * 2.20462;
+
+printf ("O Valor de %.3f quilos, em libras é igual a %.3f\n ", quilos, libras);
+
+return 0;
+
+}

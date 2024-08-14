@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+float distância, tempo, velocidade;
+
+printf ("Insira a distância percorrida e o tempo gasto ");
+scanf ("%f %f", &distância, &tempo);
+
+velocidade = distância / tempo;
+
+printf ("A velocidade média do usuário é %.3f\n", velocidade);
+
+return 0;
+
+}
